@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "net/kaupenjoe/tutorialmod/mixin/AbstractClientPlayerEntityMixin": {
+      "getFovMultiplier": "Lnet/minecraft/class_742;method_3118()F"
+    },
+    "net/kaupenjoe/tutorialmod/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "net/kaupenjoe/tutorialmod/mixin/ItemRendererMixin": {
+      "getModel": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;",
+      "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/render/model/json/ModelTransformationMode;ZLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;IILnet/minecraft/client/render/model/BakedModel;)V": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+    },
+    "net/kaupenjoe/tutorialmod/mixin/ModelLoaderMixin": {
+      "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V",
+      "Lnet/minecraft/client/render/model/ModelLoader;loadItemModel(Lnet/minecraft/client/util/ModelIdentifier;)V": "Lnet/minecraft/class_1088;method_61073(Lnet/minecraft/class_1091;)V"
+    },
+    "net/kaupenjoe/tutorialmod/mixin/PlayerAttackMixin": {
+      "attackEntity": "Lnet/minecraft/class_636;method_2918(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/kaupenjoe/tutorialmod/mixin/AbstractClientPlayerEntityMixin": {
+        "getFovMultiplier": "Lnet/minecraft/class_742;method_3118()F"
+      },
+      "net/kaupenjoe/tutorialmod/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "net/kaupenjoe/tutorialmod/mixin/ItemRendererMixin": {
+        "getModel": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;",
+        "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/render/model/json/ModelTransformationMode;ZLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;IILnet/minecraft/client/render/model/BakedModel;)V": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+      },
+      "net/kaupenjoe/tutorialmod/mixin/ModelLoaderMixin": {
+        "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V",
+        "Lnet/minecraft/client/render/model/ModelLoader;loadItemModel(Lnet/minecraft/client/util/ModelIdentifier;)V": "Lnet/minecraft/class_1088;method_61073(Lnet/minecraft/class_1091;)V"
+      },
+      "net/kaupenjoe/tutorialmod/mixin/PlayerAttackMixin": {
+        "attackEntity": "Lnet/minecraft/class_636;method_2918(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;)V"
+      }
+    }
+  }
+}

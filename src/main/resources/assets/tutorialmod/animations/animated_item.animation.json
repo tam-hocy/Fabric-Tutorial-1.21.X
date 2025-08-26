@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animated_item.animation": {
+			"loop": true,
+			"animation_length": 5.2083,
+			"bones": {
+				"lưỡi kiếmm": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0417": {
+							"vector": [-1, 0, 0]
+						},
+						"2.4167": {
+							"vector": [1, 0, 0]
+						},
+						"5.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

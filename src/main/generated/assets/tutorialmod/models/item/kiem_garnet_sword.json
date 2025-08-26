@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "tutorialmod:item/kiem_garnet_sword"
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"chao": {
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-125, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

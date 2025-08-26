@@ -1,0 +1,9 @@
+/time set day
+/help
+/locate structure minecraft:stronghold
+/tp @s -1360 ~ -816
+/gamemode spectator
+/gamemode creative
+/give
+/time s
+/time set day

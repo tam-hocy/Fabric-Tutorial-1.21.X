@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	net/kaupenjoe/tutorialmod/mixin/ItemRendererMixin	Lnet/minecraft/client/render/item/ItemModels;	models	field_4732
+METHOD	net/kaupenjoe/tutorialmod/mixin/ItemRendererMixin	()Lnet/minecraft/client/render/item/ItemModels;	getModels	method_4012
+METHOD	net/kaupenjoe/tutorialmod/mixin/ModelLoaderMixin	(Lnet/minecraft/client/util/ModelIdentifier;)V	loadItemModel	method_61073

@@ -1,0 +1,24 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-23 10:10:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-08-23 10:10:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2025-08-23 10:10:58 +0700",
+      "minecraft:grove": "2025-08-23 10:10:47 +0700",
+      "minecraft:snowy_plains": "2025-08-23 10:10:26 +0700",
+      "minecraft:snowy_taiga": "2025-08-23 10:10:44 +0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
